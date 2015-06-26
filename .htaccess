@@ -1,0 +1,8 @@
+# intercept request for getvideo
+RewriteEngine On
+php_value max_execution_time 0
+RewriteRule ^.*\.mp4$ getvideo.php
+<FilesMatch "\.(?i:mp4)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>
