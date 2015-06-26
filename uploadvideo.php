@@ -64,7 +64,7 @@ try{
          {
              unlink(__DIR__."/files_download/".$title.".mp4");
          }
-//         $pdo->ExecuteQuery("delete from youtube where youtube.id=$id;");
+        $pdo->ExecuteQuery("update youtube set upload=1 where youtube.id=$id;");
         echo "Upload success ";
 
     }
@@ -74,6 +74,5 @@ try{
 }catch(Exception $e)
 {
 
-    var_dump($e);
 }
 ?>

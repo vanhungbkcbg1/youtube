@@ -36,8 +36,8 @@ function is_chrome(){
 function downloadfile()
 {
     $pdo=new PDOImplement();
-    $result=$pdo->ExecuteQuery("select top 3 youtube_id,title,type,link from youtube");
-
+    $result=$pdo->ExecuteQuery("select youtube_id,title,type,link from youtube where upload=0  order by date_create desc limit 3");
+    var_dump($result);
     foreach($result as $key=>$value)
     {
         $video_id=$value["youtube_id"];

@@ -312,10 +312,7 @@ var_dump($_POST);
                       {
                           die("Bạn chưa nhập description");
                       }
-                      if(empty($tag))
-                      {
-                          die("Bạn chưa nhập tag cho video");
-                      }
+                      
                   }
                     if(empty($chanel))
                     {
@@ -330,7 +327,9 @@ var_dump($_POST);
                     case 0:
                     case 1:
                         {
-                            $query="insert into youtube(youtube_id,title,description,catagory,type,link,tag)values('$youtube_id','$title','$des','$chanel',$type,'$link_video','$tag')";
+                            $date_create=date("Y/m/d H:i:s");
+                            var_dump($date_create);
+                            $query="insert into youtube(youtube_id,title,description,catagory,type,link,date_create,upload)values('$youtube_id','$title','$des','$chanel',$type,'$link_video','$date_create',false)";
                             var_dump($query);
                             $pdo->ExecuteQuery($query);
                         }break;

@@ -14,7 +14,7 @@ MySQL - 5.6.21 : Database - test
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`test` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
-USE `youtube_db`;
+USE `test`;
 
 /*Table structure for table `channel` */
 
@@ -40,8 +40,10 @@ CREATE TABLE `youtube` (
   `type` smallint(6) DEFAULT NULL COMMENT 'type=1:youtubevide,type=0:link',
   `link` varchar(500) COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'link video',
   `tag` text COLLATE utf8_unicode_ci,
+  `date_create` datetime DEFAULT NULL,
+  `upload` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

@@ -35,7 +35,7 @@
       <file leaf-file-name="uploadvideo.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uploadvideo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="30" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.4516129" vertical-offset="802" max-vertical-offset="1360">
+            <state line="73" column="20" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.6344086" vertical-offset="802" max-vertical-offset="1360">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="NewVideo.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewVideo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="18" selection-start="9014" selection-end="9014" vertical-scroll-proportion="-3.3921568" vertical-offset="3125" max-vertical-offset="6188">
+            <state line="194" column="18" selection-start="9014" selection-end="9014" vertical-scroll-proportion="0.0" vertical-offset="3125" max-vertical-offset="6188">
               <folding />
             </state>
           </provider>
@@ -159,6 +159,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,7 +180,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,8 +188,8 @@
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -369,14 +369,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NewVideo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="18" selection-start="9014" selection-end="9014" vertical-scroll-proportion="-3.3921568" vertical-offset="3125" max-vertical-offset="6188">
+        <state line="194" column="18" selection-start="9014" selection-end="9014" vertical-scroll-proportion="0.0" vertical-offset="3125" max-vertical-offset="6188">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uploadvideo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="30" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.4516129" vertical-offset="802" max-vertical-offset="1360">
+        <state line="73" column="20" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.6344086" vertical-offset="802" max-vertical-offset="1360">
           <folding />
         </state>
       </provider>
